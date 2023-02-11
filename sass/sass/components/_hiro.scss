@@ -1,0 +1,91 @@
+.hiro__section--title {
+  @media screen and (min-width: 480px) {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.36;
+    font-style: normal;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+  }
+}
+
+.hiro__section {
+  @media screen and (min-width: 480px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url('./imeges/mobile-1x/mobileimg.png');
+    text-align: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    @media screen and (min-resolution: 2dppx),
+      (min-resolution: 192dpi),
+      (min-device-pixel-ratio: 2) {
+      background-image: url('./imeges/mobile-2x/hiro-2x.png');
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url('./imeges/tablet-1x/tabletimg.png');
+    @media screen and (min-resolution: 2dppx),
+      (min-resolution: 192dpi),
+      (min-device-pixel-ratio: 2) {
+      background-image: url(./imeges/tablet-2x/hiro-2x.png);
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url('./imeges/Img.png');
+  }
+  @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (min-device-pixel-ratio: 2) {
+    background-image: url('./imeges/desktop-2x/hiro-2x.png');
+  }
+}
+
+.hero__section--button {
+  @media screen and (min-width: 480px) {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
+
+    background-color: $accent-color;
+    margin-top: 30px;
+
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.87;
+  }
+}

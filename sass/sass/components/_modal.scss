@@ -1,0 +1,162 @@
+.modal {
+  width: 528px;
+  height: 570px;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+}
+
+.modal__square--page {
+  margin-left: 5px;
+  color: $accent-color;
+}
+
+.modal__div {
+  display: flex;
+  color: #757575;
+}
+
+.modal__svg--imput {
+  width: 83%;
+  margin-right: 40px;
+  margin-left: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-bottom: 10px;
+}
+
+.modal__svg--icon {
+  position: relative;
+  display: block;
+}
+
+.modal__close--icon:hover {
+  fill: $accent-color;
+}
+
+.modal__label--svg:hover {
+  fill: $accent-color;
+  border: $accent-color;
+}
+
+.modal__svg--imput:hover {
+  border: 1px solid $accent-color;
+  transition: color 250ms;
+}
+
+.modal__svg--icon {
+  left: 50px;
+  width: 15px;
+  height: 15px;
+  bottom: 23px;
+}
+
+.modal__name--comment {
+  padding: 10px 250px 50px 10px;
+  color: #757575;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal__name--comment:hover {
+  border: 1px solid $accent-color;
+}
+
+.modal__close--icon {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+.modal__close {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 490px;
+  margin-top: 8px;
+}
+
+.modal__button {
+  border: none;
+  margin-right: 165px;
+  margin-left: 165px;
+  margin-top: 15px;
+
+  color: #ffffff;
+  margin-bottom: 40px;
+  background: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+}
+
+.modal__div--square {
+  width: 15px;
+  height: 15px;
+  border: 2px solid black;
+  margin-left: 40px;
+  border-radius: 2px;
+}
+
+.modal__div--information {
+ 
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  margin-left: 8px;
+  letter-spacing: 0.03em;
+
+
+}
+
+.modal__text {
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 0.8;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 5px;
+  color: #212121;
+  margin-bottom: 15px;
+}
+
+.modal__label--neme {
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 40px;
+margin-bottom: 4px;
+  color: #757575;
+}

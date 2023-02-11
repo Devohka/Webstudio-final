@@ -1,0 +1,100 @@
+.mail__footer--div {
+  @media screen and (min-width: 480px) {
+    margin-top: 50px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+    margin-right: 100px;
+  
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+}
+
+.mail__div--title {
+  @media screen and (min-width: 480px) {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 14px;
+    
+
+  }
+
+  @media screen and (min-width: 1200px) {
+   
+   
+    margin-right: 430px;
+  }
+
+}
+
+.mail__div--comment {
+  @media screen and (min-width: 480px) {
+    width: 450px;
+    height: 50px;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #2f303a;
+    border-radius: 4px;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  
+
+  @media screen and (min-width: 1200px) {
+    width: 450px;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.mail__div--comment:hover {
+  @media screen and (min-width: 480px) {
+    border-color: $accent-color;
+  }
+
+  
+}
+
+.mail__div--button {
+ 
+    background-color: $accent-color;
+    border: none;
+    padding-top: 10px;
+    padding-left: 28px;
+    padding-bottom: 10px;
+    padding-right: 28px;
+    color: #ffffff;
+    margin-top: 30px;
+
+    border-radius: 4px;
+  
+
+  
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    margin-left: 12px;
+  }
+}
+
+.mail__div--button::before {
+  @media screen and (min-width: 480px) {
+    content: '';
+    position: relative;
+    display: block;
+
+    transition: background-color 250ms cubic-bezier(0.165, 0.84, 0.44, 1) 1500ms;
+    transform: translateY(0);
+    background-image: url();
+  }
+
+
+}
